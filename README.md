@@ -9,30 +9,31 @@ FEATURES:
 5. Automatic API documentation with FastAPI `/docs`
 
 INSTALLATION:
-1. Clone the repository
+
+1. Clone the repository:
 -> git clone <https://github.com/BushraBashir901/UserProducts_CRUD_FASTAPI>
 
-2. Change directory
+2. Change directory:
 -> cd user_products_crud_operations
 
-3. Create virtual environment (optional)
+3. Create virtual environment (optional):
 ->python -m venv envapi
 .\envapi\Scripts\Activate.ps1  # Windows PowerShell
 
-4. Install dependencies
+4. Install dependencies:
   pip install fastapi
   pip install uvicorn
   pip install sqlalchemy
   pip install pydantic
 
-5. Run
-Run the server
+5. Run:
+Run the server:
 -> uvicorn main:app --reload --port 5000
 
-Visit Swagger docs
+Visit Swagger docs: 
 -> http://127.0.0.1:5000/docs
 
-6. Usage
+6. Usage: 
    Use /users endpoints to manage users
    Use /products endpoints to manage products
    All endpoints support CRUD operations
